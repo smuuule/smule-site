@@ -1,0 +1,28 @@
+@import '../../styles-variables.scss';
+
+.content {
+  padding-top: 2%;
+  background-color: $bg_color;
+  color: $white_font;
+}
+
+h1 {
+  font-size: 6em;
+  font-family: 'SkinnyToon';
+  letter-spacing: 0.25em;
+
+}
+
+h2 {
+  font-family: 'Josefin Sans';
+  letter-spacing: 0.1em;
+}
+
+.intro {
+  width: 30rem;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  text-align: justify;
+  margin-top: 8px;
+}
+
