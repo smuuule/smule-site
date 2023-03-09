@@ -1,21 +1,38 @@
 @import '../../styles-variables.scss';
 
 .content {
-  padding-top: 2%;
   background-color: $bg_color;
   color: $white_font;
 }
 
-h1 {
-  font-size: 6em;
+.title {
+  padding-top: 2%;
   font-family: 'SkinnyToon';
   letter-spacing: 0.25em;
-
+  font-size: 9vw;
 }
 
 h2 {
   font-family: 'Josefin Sans';
   letter-spacing: 0.1em;
+  font-size: 2vw;
+}
+
+@media(min-width: 75rem) {
+  .title {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+}
+@media(min-width: 45rem) {
+  .title {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 2vw;
+  }
 }
 
 .intro {
