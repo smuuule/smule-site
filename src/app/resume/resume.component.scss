@@ -1,7 +1,49 @@
+@import '../../styles-variables.scss';
+
 .responsive {
+  width: 100%;
+  padding-top: 55px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 33%;
-  height: auto;
+}
+
+@media(min-width: 40rem) {
+  .responsive {
+    width:75%;
+  }
+}
+@media(min-width: 50rem) {
+  .responsive {
+    width: 60%;
+  }
+}
+@media(min-width: 70rem) {
+  .responsive {
+    width: 50%;
+  }
+}
+@media(min-width: 80rem) {
+  .responsive {
+    width: 45%;
+  }
+}
+@media(min-width: 90rem) {
+  .responsive {
+    width: 40%;
+  }
+}
+@media(min-width: 100rem) {
+  .responsive {
+    width: 35%;
+  }
+}
+@media(min-width: 110rem) {
+  .responsive {
+    width: 30%;
+  }
+}
+
+.resume {
+  background-color: $bg_color;
 }
