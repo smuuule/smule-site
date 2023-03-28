@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  goToLink(url: string) {
+    window.open(url, "_blank");
+    return false;
+  }
+
 }

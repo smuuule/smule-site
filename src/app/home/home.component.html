@@ -1,6 +1,6 @@
-<div class="content">
-
   <app-header></app-header>
+
+  <div class="content">
 
 
     <h1 class="title text-center">
@@ -12,8 +12,23 @@
     <img class="img-thumbnail mx-auto d-block" src="../../assets/home-photo.jpg" width="200">
 
     <div class="intro">
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis corrupti nesciunt nemo dignissimos odit mollitia, sint, temporibus beatae obcaecati quo a quam dolorem velit nobis quaerat facere ad officiis recusandae.</p>
+      <p>
+        👋Hi! I'm Samuel, a Computer Science and Engineering Student at Chalmers, Gothenburg.
+        But I am also a music lover, gamer and computer geek. I'd really like to talk, so contact me on my social media!
+      </p>
     </div>
 
+    <div class="socials">
+
+      <a (click)="goToLink('https://github.com/smuuule')"><i class="bi bi-github"></i></a>
+      &nbsp;
+      <a (click)="goToLink('https://www.linkedin.com/in/samuelrunmarkthunell')"><i class="bi bi-linkedin"></i></a>
+      &nbsp;
+      <a (click)="goToLink('https://www.facebook.com/samuel.thunell')"><i class="bi bi-facebook"></i></a>
+      &nbsp;
+      <a (click)="goToLink('https://www.instagram.com/samuel.runell')"><i class="bi bi-instagram"></i></a>
+
+    </div>
+  </div>
+
   <app-footer class="mt-auto"></app-footer>
-</div>
