@@ -18,4 +18,10 @@ export class HeaderComponent {
       this.name = params['name'];
     });
   }
+
+  goToLink(url: string) {
+    window.open(url, "_blank");
+    return false;
+  }
+
 }
