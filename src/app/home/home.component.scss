@@ -5,6 +5,8 @@
   color: $white_font;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  margin-top: 3rem;
 }
 
 .title {
@@ -20,29 +22,19 @@ h2 {
   font-size: 2vw;
 }
 
-@media(min-width: 75rem) {
-  .title {
-    font-size: 6rem;
-  }
-  h2 {
-    font-size: 4rem;
-  }
-}
-@media(min-width: 45rem) {
-  .title {
-    font-size: 6vw;
-  }
-  h2 {
-    font-size: 2vw;
-  }
+img {
+  width: 10vw;
+  margin-top: 1.5rem;
 }
 
 .intro {
-  width: 32rem;
+  width: 50%;
   margin: 0 auto;
-  font-size: 1.3rem;
-  text-align: left;
-  margin-top: 8px;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .socials {
@@ -55,4 +47,48 @@ h2 {
 
 a {
   color:burlywood;
+}
+
+a + a {
+  margin-left: 50px;
+}
+
+
+@media(min-width: 75rem) {
+  .title {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  .intro {
+    font-size: 2rem;
+  }
+}
+@media(min-width: 45rem) {
+  .title {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 2vw;
+  }
+  .intro {
+    font-size: 2rem;
+  }
+}
+@media(max-width: 32rem) {
+  .socials {
+    width: 100%;
+  }
+}
+@media(min-width: 30rem) {
+  .intro {
+    font-size: 1.5rem;
+  }
+}
+
+.clear {
+  clear: both;
+  height: 60px;
+  background-color: $bg_color;
 }

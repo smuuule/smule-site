@@ -11,10 +11,27 @@ abe-header {
     }
   }
 }
+
+i {
+  font-size: 32px;
+}
+
 .navbar-custom {
   background-color: $header_color;
 }
 
 .nav-link {
     color:ghostwhite;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: #2e4f4f;
+}
+
+.navbar-nav > li > .dropdown-menu a {
+  color: ghostwhite;
+}
+
+.navbar-nav > li > .dropdown-menu a:hover {
+  color: black;
 }
